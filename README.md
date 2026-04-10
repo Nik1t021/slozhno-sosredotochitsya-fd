@@ -1,4 +1,4 @@
-git@github.com:Nik1t021/slozhno-sosredotochitsya-fd.git
+https://github.com/Nik1t021/slozhno-sosredotochitsya-fd.git
 
 # Сложно сосредоточиться — сайт с адаптивным интерфейсом
 
