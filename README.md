@@ -5,28 +5,12 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src=".images" width="50%"/><br/>
+      <img src="/images/md-1.jpg" width="50%"/><br/>
       <sub><b>Страница в разрешении ПК с темной темой</b></sub>
     </td>
     <td align="center">
-      <img src=".github/assets/screenshots/phone-res.png" width="50%"/><br/>
+      <img src="/images/md-2.jpg" width="50%"/><br/>
       <sub><b>Страница в мобильном разрешении со светлой темой</b></sub>
-    </td>
-  </tr>
-</table>
-
-
-## Технологии
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=html" width="50"/><br/>
-      <sub>HTML5</sub>
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=css" width="50"/><br/>
-      <sub>CSS3</sub>
     </td>
   </tr>
 </table>
