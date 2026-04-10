@@ -5,7 +5,7 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src=".github/assets" width="50%"/><br/>
+      <img src=".images" width="50%"/><br/>
       <sub><b>Страница в разрешении ПК с темной темой</b></sub>
     </td>
     <td align="center">
