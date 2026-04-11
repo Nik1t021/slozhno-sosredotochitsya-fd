@@ -375,7 +375,7 @@ section:first-child {
   line-height: 130%;
 }
 
-.section_title_fourth {
+.card__title {
   margin-bottom: 0;
   color: var(--article-title-color);
 }
@@ -401,7 +401,7 @@ section:first-child {
     gap: 20px;
   }
 
-  .section_title_fourth {
+  .card__title {
     grid-column: span 3;
     align-self: start;
   }
