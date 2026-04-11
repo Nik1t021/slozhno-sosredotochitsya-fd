@@ -5,7 +5,6 @@
 */
 
 .page.theme_dark {
-  --main-font-family: "IBM Plex Mono", sans-serif;
   --main-text-color: #f1b2ce;
   --logo-color: #db00ff;
   --accent-color: #ff0070;
@@ -26,7 +25,6 @@
   --link-border: #F1B2CE;
   --focus-border-color: #ff0070;
   --focus-text-color: #ff0070;
-  --section-padding: 20px;
 }
 
 .page.theme_dark .decorated_rec_icon {
@@ -35,7 +33,6 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-font-family: "IBM Plex Mono", sans-serif;
     --main-text-color: #f1b2ce;
     --logo-color: #db00ff;
     --accent-color: #ff0070;
@@ -57,7 +54,6 @@
     --link-border: #F1B2CE;
     --focus-border-color: #ff0070;
     --focus-text-color: #ff0070;
-    --section-padding: 20px;
   }
 
   .decorated_rec_icon {

@@ -267,7 +267,7 @@ section:first-child {
 
   .section_title_reasons {
     grid-area: second-title;
-    width: 236px;
+    max-width: 236px;
   }
 
   .article_reasons {
@@ -323,7 +323,7 @@ section:first-child {
 
   .section_title_reasons {
     grid-row: 1 / 2;
-    width: 315px;
+    min-width: 315px;
     grid-column: auto;
   }
 
