@@ -5,58 +5,21 @@
 */
 
 .page.theme_dark {
-  --main-text-color: #f1b2ce;
-  --logo-color: #db00ff;
-  --accent-color: #ff0070;
-  --title-decor: #ff0070;
-  --button-color: #ff0070;
-  --description-color: #000028;
-  --section-title-color: #ff0070;
-  --article-title-color: #000028;
-  --subtitle-color: #000028;
-  --background-color: #000028;
-  --decorated-zone-color: #ff0070;
-  --background-image: url(../images/cover-image-dark.png);
-  --active-border: 1px solid #ff0070;
-  --active-color: #ff0070;
-  --hover-border: rgba(255, 0, 112, 0.4);
-  --hover-color: #ff0070;
-  --hover-underline: #F1B2CE;
-  --link-border: #F1B2CE;
-  --focus-border-color: #ff0070;
-  --focus-text-color: #ff0070;
+  --bg-color: #000028;
+  --bg-title-color: #ff0070;
+  --main-title-text-color: #db00ff;
+  --main-title-accent-text-color: #ff0070;
+  --section-title-text-color: #ff0070;
+  --sub-title-text-color: #000028;
+  --text-color: #f1b2ce;
+  --main-font: 'IBM Plex mono';
+  --decor-color: #ff0070;
+  --buttom-color: #ff0070;
+  --buttom-hover-color: #ff007066;
+  --link-accent-color: #ff0070;
+  background-image: url(../images/cover-image-dark.png);
 }
 
-.page.theme_dark .decorated_rec_icon {
-  display: inline-flex;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-text-color: #f1b2ce;
-    --logo-color: #db00ff;
-    --accent-color: #ff0070;
-    --title-decor: #ff0070;
-    --button-color: #ff0070;
-    --description-color: #000028;
-    --subtitle-color: #000028;
-    --section-title-color: #ff0070;
-    --article-title-color: #000028;
-    --subtitle-color: #000028;
-    --background-color: #000028;
-    --decorated-zone-color: #ff0070;
-    --background-image: url(../images/cover-image-dark.png);
-    --active-border: 1px solid #ff0070;
-    --active-color: #ff0070;
-    --hover-border: rgba(255, 0, 112, 0.4);
-    --hover-color: #ff0070;
-    --hover-underline: #F1B2CE;
-    --link-border: #F1B2CE;
-    --focus-border-color: #ff0070;
-    --focus-text-color: #ff0070;
-  }
-
-  .decorated_rec_icon {
-    display: inline-flex;
-  }
+.theme_dark .decor {
+  display: block;
 }
