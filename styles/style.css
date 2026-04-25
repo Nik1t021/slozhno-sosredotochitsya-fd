@@ -164,6 +164,10 @@
   line-height: 130%;
 }
 
+.title__fonts{
+  font-weight: normal;
+}
+
 .card__text {
   font-weight: 400;
   font-size: 18px;
@@ -172,33 +176,12 @@
 
 .link {
   position: relative;
-  display: inline-block;
+  text-shadow: 2px 2px 0 var(--accent-color,#FF0070);
   text-decoration: none;
-  z-index: 0;
-}
-
-.link::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  color: var(--link-accent-color, #ff0070);
-  font-weight: 400;
-  inset-block-start: 1px;
-  inset-inline-start: 1px;
-}
-
-.link-about-multitasking::before {
-  content: 'выяснили';
-}
-
-.link-about-walk::before {
-  content: 'показал';
 }
 
 .link:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
+   border-bottom: 1px solid var(--main-color);
 }
 
 .link:focus-visible {
